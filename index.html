@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="StarterApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Starter App</title>
+    <link rel="stylesheet" href="/styles/inline.css" media="screen" title="no title" charset="utf-8">
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="./app.js"></script>
+    <script src="./config/config.js"></script>
+    <script src="./components/home/home.js"></script>
+    <script src="./components/about/about.js"></script>
+    <script src="./components/contract/contract.js"></script>
+
+  </head>
+  <body ng-controller="StarterAppController as app">
+    <ui-view></ui-view>
+  </body>
+</html>
